@@ -1,1 +1,6 @@
-# ImmortalWrt_Redmi_AX6000
+
+# OpenWrt Firmware For Redmi AX6000 Router
+
+## ImmortalWrt(hanwckf) Firmware
+- Compiled source code is forked from https://cmi.hanwckf.top/p/immortalwrt-mt798x/
+- Default login address: http://192.168.31.1 or http://immortalwrt.lan, username: __root__, password: _none_.
