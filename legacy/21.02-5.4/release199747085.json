@@ -1,0 +1,31 @@
+{
+  "assets": [
+    {
+      "name": "legacy-release199747085-immortalwrt-mediatek-mt7986-xiaomi_redmi-router-ax6000-squashfs-sysupgrade-2024.12.03-02fff2a.bin",
+      "sha256": "7820f1bcaed838f1816a56883c8a10d9b697b9c5bd49633a725b2db162bb44db",
+      "size_bytes": 32113467,
+      "source_id": 228363068,
+      "source_name": "immortalwrt-mediatek-mt7986-xiaomi_redmi-router-ax6000-squashfs-sysupgrade-2024.12.03-02fff2a.bin"
+    },
+    {
+      "name": "legacy-release199747085-mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin",
+      "sha256": "063c9ba7a09fc1134827b1f96a2fcffc5cb6b8203985e57c206567e25d3937ab",
+      "size_bytes": 829961,
+      "source_id": 228363379,
+      "source_name": "mt7986_redmi_ax6000-fip-fixed-parts-multi-layout.bin"
+    }
+  ],
+  "line": "21.02-5.4",
+  "repository": "SundayRX/OpenWrt_Firmware_Redmi_AX6000",
+  "schema": 1,
+  "source": {
+    "body": "ImmortalWrt 21.02-SNAPSHOT r0-02fff2a / LuCI openwrt-21.02 branch git-23.098.38725-847bd6b\r\nKernel Version:5.4.284\r\n# OpenWrt Firmware For Redmi AX6000 Router\r\n## Modify System\r\n- Modify default lan ip address to 192.168.31.1\r\n- Add complier author information\r\n## Modify MenuConfig(Enable)\r\n- Target Profile is Xiaomi Redmi Router AX6000\r\n- luci-app-arpbind            \r\n- luci-app-autoreboot        \r\n- luci-app-ddns \r\n- luci-app-ntpc               \r\n- luci-app-openclash v0.46.064   \r\n- luci-app-statistics         \r\n- luci-app-ttyd               \r\n- luci-app-turboacc           \r\n- Enable BBR CCA              \r\n- luci-app-unblockmusic       \r\n- luci-app-unnp\r\n- luci-app-vlmcsd             \r\n# ImmortalWrt(hanwckf) Firmware\r\n- Compiled source code is forked from https://github.com/hanwckf/immortalwrt-mt798x\r\n- Default login address: http://192.168.31.1 , username: __root__, password: _none_.\r\n",
+    "id": 199747085,
+    "name": "ImmortalWrt-21.02-2024.12.03-02fff2a",
+    "published_at": "2025-02-12T02:23:17Z",
+    "tag": "ImmortalWrt-21.02-2024.12.03-02fff2a",
+    "target_commit": "0884a2e3005ff6dab7f78d6cc9067d9cceae7ec5"
+  },
+  "state": "prepared",
+  "tag": "OpenWrt-21.02-Kernel-5.4"
+}
