@@ -27,7 +27,7 @@
 ### 24.10 / 6.6
 
 <!-- AX6000:24.10-6.6:START -->
-- [下载最新版本与查看说明](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/releases/tag/OpenWrt-24.10-Kernel-6.6-66c329a-20261016T065356Z) · 2026-10-16 06:53:56（编译） UTC
+本系列暂无可下载的发行。
 - [此系统的全部版本与历史固件](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/releases?q=%2224.10-6.6%22)
 <!-- AX6000:24.10-6.6:END -->
 
@@ -69,4 +69,4 @@ ZIP 中的 `release-notes.md` 介绍该版本，`packages.txt` 列出预装软�
 
 在 [Issues](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/issues) 中提供完整 Release Tag 或 ZIP 文件名、升级方式、是否保留配置，以及问题出现的步骤。提交截图或日志前，请移除密码、订阅地址、令牌和个人网络信息。
 
-<!-- AX6000:DOCUMENTS:{"build":{"commit":"cbdf74306a6260f7df2520bdb77be0bc91b12dcc","run_attempt":"1","run_id":"38991015503"},"schema":1,"templates_sha256":"70d88b6fb228ce3b7a9cc1d82b6b1f37db92234cf154c36db99638555460e5b9"} -->
+<!-- AX6000:DOCUMENTS:{"build":{"commit":"cbdf74306a6260f7df2520bdb77be0bc91b12dcc","run_attempt":"1","run_id":"38991391880"},"schema":1,"templates_sha256":"70d88b6fb228ce3b7a9cc1d82b6b1f37db92234cf154c36db99638555460e5b9"} -->
