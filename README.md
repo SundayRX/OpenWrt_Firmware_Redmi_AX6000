@@ -39,17 +39,17 @@
 ### 24.10 / Linux 6.6
 
 <!-- AX6000:24.10-6.6:START -->
-- 下载：本系列暂无可下载的发行。
+- [下载最新版本与查看说明](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/releases/tag/OpenWrt-24.10-Kernel-6.6-2d1ac66-20261020T152313Z) · 编译时间：2026-10-20 15:23:13 UTC
 - [全部版本与历史固件](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/releases?q=%2224.10-6.6%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | 尚未发布 |
-| 内核 | 尚未发布 |
-| 布局 | 尚未发布 |
-| Wi-Fi 驱动 | 尚未发布 |
-| LuCI | 尚未发布 |
-| Argon | 尚未发布 |
+| 系统 | ImmortalWrt 24.10-SNAPSHOT `r0-2d1ac66` |
+| 内核 | Linux `6.6.133` |
+| 布局 | 普通 110m（`immortalwrt-110m`） |
+| Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
+| LuCI | `26.246.30525~80ed8a4` |
+| Argon | `2.4.3-r20250722.1` |
 <!-- AX6000:24.10-6.6:END -->
 
 [功能与使用说明](docs/24.10-6.6.md) · [修复与改进](docs/24.10-6.6.md#fixes)
@@ -147,4 +147,4 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，例如 `Immor
 
 遇到问题可提交 [Issue](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/issues)，附完整 Release Tag 或固件版本、升级方式、是否保留配置，以及复现步骤。截图和日志请先去除密码、订阅地址、令牌等私密信息。
 
-<!-- AX6000:DOCUMENTS:{"build":{"commit":"b55fdfd7446499a51ff4e6d59392932532edbe62","run_attempt":"1","run_id":"39531658499"},"schema":1,"templates_sha256":"1553f7bf29db3481555620150e8f3325f4100970dd14e4a95956cc76a2d345f9"} -->
+<!-- AX6000:DOCUMENTS:{"build":{"commit":"b55fdfd7446499a51ff4e6d59392932532edbe62","run_attempt":"1","run_id":"39533203458"},"schema":1,"templates_sha256":"1553f7bf29db3481555620150e8f3325f4100970dd14e4a95956cc76a2d345f9"} -->
