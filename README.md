@@ -57,17 +57,17 @@
 ### 25.12 / Linux 6.12
 
 <!-- AX6000:25.12-6.12:START -->
-- 下载：本系列暂无可下载的发行。
+- [下载最新版本与查看说明](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/releases/tag/OpenWrt-25.12-Kernel-6.12-2d1ac66-20261020T145656Z) · 编译时间：2026-10-20 14:56:56 UTC
 - [全部版本与历史固件](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/releases?q=%2225.12-6.12%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | 尚未发布 |
-| 内核 | 尚未发布 |
-| 布局 | 尚未发布 |
-| Wi-Fi 驱动 | 尚未发布 |
-| LuCI | 尚未发布 |
-| Argon | 尚未发布 |
+| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-2d1ac66` |
+| 内核 | Linux `6.12.112` |
+| 布局 | 普通 110m（`immortalwrt-110m`） |
+| Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
+| LuCI | `26.289.10016~36e3f0d` |
+| Argon | `3.0.0-r20261016` |
 <!-- AX6000:25.12-6.12:END -->
 
 [功能与使用说明](docs/25.12-6.12.md) · [修复与改进](docs/25.12-6.12.md#fixes)
