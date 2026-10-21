@@ -38,4 +38,4 @@ ImmortalWrt 主源码的 `COPYING` 标注 [GPL-2.0-only](https://spdx.org/licens
 
 本仓库提供固件下载与使用说明，**目前尚未提供各次固件完整对应源码的下载入口**。GitHub 自动生成的 Source code 压缩包仅包含公开仓库文档，不是固件源码。
 
-上游链接用于说明来源，不能代替具体固件的完整对应源码，包括适用许可证要求提供的相关编译和安装脚本。源码获取方式公布前，可在 [Issues](https://github.com/SundayRX/OpenWrt_Firmware_Redmi_AX6000/issues) 中提供完整 Release Tag 和 ZIP 文件名查询；该反馈入口不代表对应源码已交付。
+上游链接用于说明来源，不能代替具体固件的完整对应源码，包括适用许可证要求提供的相关编译和安装脚本。源码获取方式公布前，可在 [Issues](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/issues) 中提供完整 Release Tag 和 ZIP 文件名查询；该反馈入口不代表对应源码已交付。
