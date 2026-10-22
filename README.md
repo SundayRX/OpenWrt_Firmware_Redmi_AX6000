@@ -57,12 +57,12 @@
 ### 25.12 / Linux 6.12
 
 <!-- AX6000:25.12-6.12:START -->
-- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-25.12-Kernel-6.12-9f60bb6-20261022T021040Z) · 编译时间：2026-10-22 02:10:40 UTC
+- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-25.12-Kernel-6.12-00f784b-20261022T064626Z) · 编译时间：2026-10-22 06:46:26 UTC
 - [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2225.12-6.12%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-9f60bb6` |
+| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-00f784b` |
 | 内核 | Linux `6.12.112` |
 | 布局 | 普通 110m（`immortalwrt-110m`） |
 | Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
