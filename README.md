@@ -21,17 +21,17 @@
 ### 21.02 / Linux 5.4
 
 <!-- AX6000:21.02-5.4:START -->
-- [下载现有版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2221.02-5.4%22)
+- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-21.02-Kernel-5.4-00f784b-20261022T064558Z) · 编译时间：2026-10-22 06:45:58 UTC
 - [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2221.02-5.4%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | 未记录，请查看发行说明 |
-| 内核 | 未记录，请查看发行说明 |
-| 布局 | 未记录，请查看发行说明 |
-| Wi-Fi 驱动 | 未记录，请查看发行说明 |
-| LuCI | 未记录，请查看发行说明 |
-| Argon | 未记录，请查看发行说明 |
+| 系统 | ImmortalWrt 21.02-SNAPSHOT `r0-00f784b` |
+| 内核 | Linux `5.4.284` |
+| 布局 | 普通 110m（`immortalwrt-110m`） |
+| Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
+| LuCI | `git-23.360.32803-5829eab` |
+| Argon | `2.3.1` |
 <!-- AX6000:21.02-5.4:END -->
 
 [功能与使用说明](docs/21.02-5.4.md) · [修复与改进](docs/21.02-5.4.md#fixes)
@@ -149,4 +149,4 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，例如 `Immor
 
 遇到问题可提交 [Issue](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/issues)，附完整 Release Tag 或固件版本、升级方式、是否保留配置，以及复现步骤。截图和日志请先去除密码、订阅地址、令牌等私密信息。
 
-<!-- AX6000:DOCUMENTS:{"build":{"commit":"9f60bb6f66f331f56a322780a36e4c52e9c826ca","run_attempt":"1","run_id":"39708993368"},"schema":1,"templates_sha256":"233bf4ad05698f4e817e001045da3bf7476c11a7db7c390b06d5cfec2d096912"} -->
+<!-- AX6000:DOCUMENTS:{"build":{"commit":"00f784b3b34f954e195ea3dbb3e0f9ec3711577d","run_attempt":"1","run_id":"39735037673"},"schema":1,"templates_sha256":"233bf4ad05698f4e817e001045da3bf7476c11a7db7c390b06d5cfec2d096912"} -->
