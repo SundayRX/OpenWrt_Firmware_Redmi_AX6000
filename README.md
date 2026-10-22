@@ -39,17 +39,17 @@
 ### 24.10 / Linux 6.6
 
 <!-- AX6000:24.10-6.6:START -->
-- 下载：本系列暂无可下载的发行。
+- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-24.10-Kernel-6.6-00f784b-20261022T064514Z) · 编译时间：2026-10-22 06:45:14 UTC
 - [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2224.10-6.6%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | 暂无可下载版本 |
-| 内核 | 暂无可下载版本 |
-| 布局 | 暂无可下载版本 |
-| Wi-Fi 驱动 | 暂无可下载版本 |
-| LuCI | 暂无可下载版本 |
-| Argon | 暂无可下载版本 |
+| 系统 | ImmortalWrt 24.10-SNAPSHOT `r0-00f784b` |
+| 内核 | Linux `6.6.133` |
+| 布局 | 普通 110m（`immortalwrt-110m`） |
+| Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
+| LuCI | `26.246.30525~80ed8a4` |
+| Argon | `2.4.3-r20250722.1` |
 <!-- AX6000:24.10-6.6:END -->
 
 [功能与使用说明](docs/24.10-6.6.md) · [修复与改进](docs/24.10-6.6.md#fixes)
