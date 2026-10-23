@@ -6,35 +6,37 @@
 
 ## 选择版本
 
+**从安全维护角度，优先推荐使用 25.12。** 25.12 采用 Linux 6.12 和 [OpenSSL 3.5 LTS](https://openssl-library.org/policies/releasestrat/) 等较新的基础组件，更适合作为长期日常使用、持续跟进安全更新的首选。请及时安装本项目发布的固件更新。
+
 | 系统系列 | 适合谁 | 防火墙与插件 | 管理界面 |
 |---|---|---|---|
-| [21.02 / Linux 5.4](docs/21.02-5.4.md) | **以日常稳定使用为先，偏好轻量，不追新功能** | FW3 / iptables；OPKG 安装 IPK | LuCI 21.02，Argon 2.3.1 |
+| [25.12 / Linux 6.12](docs/25.12-6.12.md) | **推荐：重视安全维护、新功能与新版界面** | FW4 / nftables；APK 软件包 | LuCI 25.12，常规版本 Argon 3.0.0 |
 | [24.10 / Linux 6.6](docs/24.10-6.6.md) | **需要 FW4，并继续使用适配的 IPK 插件** | FW4 / nftables；OPKG 安装 IPK | LuCI 24.10，Argon 2.4.3 |
-| [25.12 / Linux 6.12](docs/25.12-6.12.md) | **希望使用新功能、新内核与新版界面** | FW4 / nftables；APK 软件包 | LuCI 25.12，常规版本 Argon 3.0.0 |
+| [21.02 / Linux 5.4](docs/21.02-5.4.md) | **偏好轻量，或依赖旧版 FW3 / IPK 插件** | FW3 / iptables；OPKG 安装 IPK | LuCI 21.02，Argon 2.3.1 |
 
-**偏好轻量、以日常使用为主，选择 21.02；希望使用新功能，优先选择 25.12；需要保留 FW4 + IPK 插件组合，选择 24.10。** 21.02 的系统和插件生态较旧，25.12 使用 APK，不能直接安装 IPK。
+25.12 使用 APK，不能直接安装 IPK；需要保留 FW4 + IPK 插件组合时选择 24.10；21.02 为轻量需求和旧插件兼容提供选择，其系统与插件生态较旧。跨系列升级前，请先确认常用插件有对应版本。
 
 三套系统均采用 MediaTek 厂商 Wi-Fi 驱动。以下下载区列出各系列可用版本及组件信息；预发布版本会在对应发行页标注。
 
 ## 下载
 
-### 21.02 / Linux 5.4
+### 25.12 / Linux 6.12
 
-<!-- AX6000:21.02-5.4:START -->
-- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-21.02-Kernel-5.4-00f784b-20261022T064558Z) · 编译时间：2026-10-22 06:45:58 UTC
-- [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2221.02-5.4%22)
+<!-- AX6000:25.12-6.12:START -->
+- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-25.12-Kernel-6.12-9d1a437-20261023T122818Z) · 编译时间：2026-10-23 12:28:18 UTC
+- [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2225.12-6.12%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | ImmortalWrt 21.02-SNAPSHOT `r0-00f784b` |
-| 内核 | Linux `5.4.284` |
+| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-9d1a437` |
+| 内核 | Linux `6.12.112` |
 | 布局 | 普通 110m（`immortalwrt-110m`） |
 | Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
-| LuCI | `git-23.360.32803-5829eab` |
-| Argon | `2.3.1` |
-<!-- AX6000:21.02-5.4:END -->
+| LuCI | `26.289.10016~36e3f0d` |
+| Argon | `3.0.0-r20261016` |
+<!-- AX6000:25.12-6.12:END -->
 
-[功能与使用说明](docs/21.02-5.4.md) · [修复与改进](docs/21.02-5.4.md#fixes)
+[功能与使用说明](docs/25.12-6.12.md) · [修复与改进](docs/25.12-6.12.md#fixes)
 
 ### 24.10 / Linux 6.6
 
@@ -54,23 +56,23 @@
 
 [功能与使用说明](docs/24.10-6.6.md) · [修复与改进](docs/24.10-6.6.md#fixes)
 
-### 25.12 / Linux 6.12
+### 21.02 / Linux 5.4
 
-<!-- AX6000:25.12-6.12:START -->
-- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-25.12-Kernel-6.12-00f784b-20261022T064626Z) · 编译时间：2026-10-22 06:46:26 UTC
-- [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2225.12-6.12%22)
+<!-- AX6000:21.02-5.4:START -->
+- [下载最新版本与查看说明](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases/tag/ImmortalWrt-21.02-Kernel-5.4-00f784b-20261022T064558Z) · 编译时间：2026-10-22 06:45:58 UTC
+- [全部版本与历史固件](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/releases?q=%2221.02-5.4%22)
 
 | 项目 | 此固件版本 |
 | --- | --- |
-| 系统 | ImmortalWrt 25.12-SNAPSHOT `r0-00f784b` |
-| 内核 | Linux `6.12.112` |
+| 系统 | ImmortalWrt 21.02-SNAPSHOT `r0-00f784b` |
+| 内核 | Linux `5.4.284` |
 | 布局 | 普通 110m（`immortalwrt-110m`） |
 | Wi-Fi 驱动 | MediaTek `mt_wifi` `7.6.7.3` |
-| LuCI | `26.289.10016~36e3f0d` |
-| Argon | `3.0.0-r20261016` |
-<!-- AX6000:25.12-6.12:END -->
+| LuCI | `git-23.360.32803-5829eab` |
+| Argon | `2.3.1` |
+<!-- AX6000:21.02-5.4:END -->
 
-[功能与使用说明](docs/25.12-6.12.md) · [修复与改进](docs/25.12-6.12.md#fixes)
+[功能与使用说明](docs/21.02-5.4.md) · [修复与改进](docs/21.02-5.4.md#fixes)
 
 打开发行页，核对系统、布局和插件版本，再下载 **Assets 中的固件 ZIP**。GitHub 自动生成的 `Source code (zip/tar.gz)` 不能刷机。
 
@@ -92,12 +94,13 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，例如 `Immor
 
 | 使用环节 | 改进重点 |
 |---|---|
+| 安全维护 | 更新系统证书信任，按系列修复异常网页请求、HTTP/2 上传和防火墙地址范围处理问题，并更新内置 Go 系统组件；具体适用项目见各系列说明 |
 | 无线连接 | 关联兼容、密钥更新、无线配置保存及双频状态显示 |
 | 管理页面 | 改善概览加载、配置保存、静态租约管理、下拉列表和升级后页面更新 |
 | 网络与服务 | 完善加速设置生效、限速与访问控制配合，以及服务异常后的恢复 |
 | 升级与恢复 | 完善备份与写入失败处理，保护跨系列配置切换，提供安装和恢复镜像 |
 
-查看完整清单：[21.02](docs/21.02-5.4.md#fixes) · [24.10](docs/24.10-6.6.md#fixes) · [25.12](docs/25.12-6.12.md#fixes)。
+查看完整清单：[25.12](docs/25.12-6.12.md#fixes) · [24.10](docs/24.10-6.6.md#fixes) · [21.02](docs/21.02-5.4.md#fixes)。
 
 ## 默认设置
 
@@ -121,7 +124,7 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，例如 `Immor
 
 ## 更新与回退
 
-已有本仓库普通 110m 固件且管理页面可用时，优先从“系统 → 备份/升级”上传 `*squashfs-sysupgrade.bin`。**在 21.02、24.10、25.12 之间升级或回退，都取消保留配置**，安装后重新设置网络并安装匹配插件。不能整包恢复另一系列的备份。
+已有本仓库普通 110m 固件且管理页面可用时，优先从“系统 → 备份/升级”上传 `*squashfs-sysupgrade.bin`。**在 25.12、24.10、21.02 之间升级或回退，都取消保留配置**，安装后重新设置网络并安装匹配插件。不能整包恢复另一系列的备份。
 
 系统无法启动时，使用同布局的 factory 镜像从配套 U-Boot 恢复。多布局引导请选择 **`immortalwrt-110m`**；`default` 是另一种布局。完整步骤、备份范围和旧版升级页面的处理办法见[安装、升级与恢复](docs/flashing.md)。
 
@@ -149,4 +152,4 @@ ZIP 名称包含系统、内核、设备、布局和编译时间，例如 `Immor
 
 遇到问题可提交 [Issue](https://github.com/SundayRX/ImmortalWrt_Firmware_Redmi_AX6000/issues)，附完整 Release Tag 或固件版本、升级方式、是否保留配置，以及复现步骤。截图和日志请先去除密码、订阅地址、令牌等私密信息。
 
-<!-- AX6000:DOCUMENTS:{"build":{"commit":"00f784b3b34f954e195ea3dbb3e0f9ec3711577d","run_attempt":"1","run_id":"39735037673"},"schema":1,"templates_sha256":"233bf4ad05698f4e817e001045da3bf7476c11a7db7c390b06d5cfec2d096912"} -->
+<!-- AX6000:DOCUMENTS:{"build":{"commit":"9d1a437cba942cee083763a7971d465e26f700d1","run_attempt":"1","run_id":"39952511451"},"schema":1,"templates_sha256":"28f9a2a5445b68798c30e9bc78cae5e098b5695b3e6fe952d925ee1faa9aaeac"} -->
